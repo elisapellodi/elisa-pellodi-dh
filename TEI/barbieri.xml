@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="../stylesheets/progettotei.css" type="text/css"?>
+<?oxygen RNGSchema="../schemas/teilite.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="barbieri_basilica_di_santa_maria_annunziata_e_san_biagio">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Basilica di Santa Maria Annunziata e San Biagio</title>
+				<author>Barbieri, Guglielmo</author>
+				<respStmt>
+					<resp>Header creation by</resp>
+					<name>Elisa Pellodi</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<name>Elisa Pellodi</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<p>Edizione Unica</p>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>SGS</publisher>
+				<pubPlace>
+					<address>
+						<addrLine>Bologna</addrLine>
+					</address>
+				</pubPlace>
+				<date>1974</date>
+				<availability>
+					<p>??This text is freely available provided the text is distributed with the header information provided.??</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Basilica di Santa Maria Annunziata e San Biagio. Barbieri, Guglielmo. 1974</bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="chapter" n="1">
+				<head>Cenni Storici</head>
+					<p>Nell'851 un prete bolognese, Villario, vendette delle terre pos- sedute in "fundo Sala" al conte Auteramno (Salvioli) e nel 987 metà dei beni della corte, del castello e della chiesa di S. Eufemia, in loco dicto Sala, vennero acquistati dalla chiesa di Parma (Affo). Il vescovo di Parma conservò questi beni fino all'inizio del XII se- colo. In un placito del marchese Bonifacio del 1051, nell'archivio capitolare di Parma, Cadolo vescovo di Parma dal 1046 (poi antipapa Onorio II nel 1061), afferma di possedere come vescovo metà del castello di Sala e delle sue pertinenze, mentre l'altra metà, come ricorda un documento del 1061, era posseduto dal conte Tegrimo del fu Alberico di Sala (Tiraboschi). Un diploma di Arrigo V del 1111 ricorda ancora il castello di Sala fra le giurisdizioni del vescovo di Parma. I Signori di Sala, la cui origine è anteriore al 1000, ne diven- nero in seguito completamente padroni e raggiunsero la loro maggiore potenza nella storica lotta. Essendo vassalli dell'Abbazia di Nonantola, da cui nel 1014 Alberico, figlio di Gisone da Sala, aveva preso in enfiteusi la corte di S. Agata e tutte le sue pertinenze, dovettero seguire l'indirizzo dell'abate Landolfo I, fedele all'imperatore e difendere il castello di S. Agata (Calindri). Ma, vinti dalla contessa Matilde, dopo la resa di Canossa da parte di Arrigo IV, scomunicato da Gregorio VII, passarono assieme ai Benedettini di Nonantola, dalla parte del papa, e parteciparono attivamente alla vittoriosa difesa del castello matildico di Monteveglio contro Arrigo IV nella sua marcia di riscossa verso Roma, tanto che Matilde riconoscente verso "praeter illos de Sala viros nobiles qui mihi multum servierunt in discordia imperatoris Enrici quarti", li nominò conti del loro castello. I Conti di Sala, cresciuti in prestigio e diventati i più potenti feudatari della pianura fra Modena e Bologna, provvidero alla riedificazione della chiesa plebana dedicata alla Vergine Madre di Dio, S. Michele, S. Biagio e S. Giovanni fuori del castello; mentre all'interno avevano una più piccola chiesa dedicata a S. Eufemia, costruita nel 1051 (Tiraboschi). In una carta del 1179 (Trombelli) importante perché ricorda parecchi nomi dei Conti di Sala, si fa menzione dell'altra chiesa dedicata a S. Giovanni Battista, ora scomparsa. Nel secolo XII Sala si era eretta in Comune libero, retto da Consoli, ma la sua indipendenza durò poco, perché all'inizio del secolo XIII il Comune di Bologna, partito in lotta contro i feudatari del contado, dopo aspre e sanguinose lotte, si impossessò della terra di Sala, distrusse il castello risparmiando soltanto la chiesa, la torre e pochi altri edifici.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

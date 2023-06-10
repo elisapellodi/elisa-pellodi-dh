@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="../stylesheets/progettotei.css" type="text/css"?>
+<?oxygen RNGSchema="../schemas/teilite.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="farneti_poli_oltre_padusa_nel_tempo">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Oltre Padusa, nel Tempo</title>
+				<author>Farneti Poli, Rita</author>
+				<respStmt>
+					<resp>Header creation by</resp>
+					<name>Elisa Pellodi</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<name>Elisa Pellodi</name>
+				</respStmt>
+			</titleStmt>
+			<editionStmt>
+				<p>Edizione Unica</p>
+			</editionStmt>
+			<publicationStmt>
+				<publisher>Arnaldo Forni Editore</publisher>
+				<pubPlace>
+					<address>
+						<addrLine>Sala Bolognese</addrLine>
+					</address>
+				</pubPlace>
+				<date>1987</date>
+				<availability>
+					<p>??This text is freely available provided the text is distributed with the header information provided.??</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>Oltre Padusa, nel Tempo. Farneti Poli, Rita. Sala, Paese di Terra e di Acque. Zanichelli, Simona. 1987</bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="chapter" n="3">
+				<ab>III La Casata Canossa</ab>
+					<div type="section">
+						<head>Matilde di Canossa ed i Conti Sala</head>
+						<p>Alla morte di Gregorio VII (1085) Matilde di Canossa, depositaria del gonfalone guelfo in Italia, si trova ad affrontare la calata germanica di quell'Enrico Imperatore che rientra per la terza volta in Italia nell'anno "trigesimoquinto" (1090) ed invade una Lombardia già amaro teatro di lotte di potere.
+						Il coraggio ed il carisma di questa grande feudataria si colgono nella forza con cui riesce a sostenere l'intero peso della guerra, attingendo, nei momenti di sommo pericolo, ai tesori del monastero Nonantolano e delle altre chiese beneficate". 
+						D'altro canto i possessi matildici - narra il cronista del tempo che folte erano le sue castella sull'appennino e d'accesso difficile" - non sono sufficienti ad affrontare completamente il peso della guerra che si presenta lunga e difficile e per cui si chiede anche il conforto di alleati.
+						Allora accingevasi a difesa gagliarda per quei contorni i Cattani da Sala e altri nobilis". I legami fra la famiglia Sala e Matilde di Canossa sono anche confermati dalla presenza, in qualità di testimoni, di alcuni Sala in atti matildici agli inizi del XII secolo": non sono solo rapporti avvalorati dalla presenza di transizioni giuridiche, ma diventano specchio di quella particolare forma di gratitudine nutrita dalla famiglia Sala nei confronti di casa Canossa per la generosità, dimostrata dalla Contessa verso chi, come loro, era stato vinto nella battaglia per la conquista del Castello di S. Agata.
+						I signori Sala ricambiano con pari generosità partecipando, nel 1092, alla difesa del castello di Monteveglio, possesso matildico assediato da Arrigo IV nell'ottobre dello stesso anno: le forze alleate di Matilde e dei Montevegliesi finiranno per aver ragione dell'imperatore che si vedrà costretto ad abbandonare un'impresa in cui aveva perduto anche il proprio figlio.
+						La riconoscenza di Matilde giunge alla famiglia Sala, inaspettata, attraverso l'investitura della carica nobiliare di contea nel castello di Sala.
+						Appartiene a questo periodo la riedificazione, da parte della famiglia Sala, della chiesa plebana, ricostruzione documentata da una lapide presente ancor oggi nella facciata della chiesa stessa. «La chiesa, riedificata nel 1096 e dedicata alla Vergine e ai SS. Michele, Biagio e Giovanni, si trovava fuori del recinto murato del castello di Sala, in località Cascina, dove, ancora oggi, a detta del Rivani, è presente un rialzo del terrenos".
+						All'interno del castello i signori Sala possedevano una chiesetta, a loro riservata, dedicata a S. Eufemia, ed edificata il 10 giugno 1051.
+						Sconfitto l'imperatore, conquistato dunque il castello di S. Agata, il favore di Matilde si mantiene, benefico e costante, nei confronti dei signori Sala: in un atto che si conserva fra le carte del monastero di Polirone Matilde dona alla chiesa di S. Cesareo la corte di Wilzacara ed il castello nonché il borgo di S. Cesarco. L'atto è datato 23 maggio 1112 e riporta una lusin-ghiera affermazione per i signori Sala, chiamati addirittura «viros nobiles qui multum mihi servierunt in discordia Imperatoris Henrici IV»" vale a dire «nobili valorosi che molto mi aiutarono nella lotta contro l'imperatore Enrico IV».</p>
+					</div>
+			</div>
+			<div type="chapter" n="8">
+				<ab>VIII Sala ieri, Sala ancora oggi</ab>
+					<div type="section">
+						<head>La Pieve di San Biagio</head>
+							<p>Gli attuali restauri della chiesa hanno con evidenza dimostrato che anche nei secoli anteriori alla civiltà cristiana Sala era centro abitato; infatti nei lavori di scavo e di demolizione è venuto in luce numeroso materiale laterizio di origine romana. Pure romana è la mensa dell'altare maggiore che reca scolpita entro una nicchia una testa di ariete sfregiata dallo scalpello dei primi cristiani, i quali poi, per adattare la lastra di marmo all'uso sacro, dopo aver scolpita la croce sul muso mutilato dell'animale, la capovolsero. [...] Documentazioni posteriori, ma ancora precedenti il mille, ci danno notizia che il 15 gennaio dell'anno 850 il prete Willario vende alcune terre possedute in «fundo Sala» e che nel 987 metà dei beni della Corte, del Castello e della Chiesa in «loco dicto Sala» vengono venduti alla Chiesa di Parma. Questi beni o, meglio, questa investitura riferentesi anche alla Chiesa il Vescovo di Parma la conservò fino all'inizio del secolo XII. Vi è sicura documentazione la quale dimostra che il Castello di Sala colle sue pertinenze nel secolo XI era metà del detto Vescovato e metà dei Signori da Sala i quali, cresciuti di potenza, divennero poi completamente padroni del Castello e della Corte nel secolo successivo. La potenza e la notorietà dei Signori da Sala dopo il mille trova testimonianza dalle carte cassinesi e da vari storici. Di origine anteriore al secolo XI si sono resi noti solo dal 1014 attraverso i documenti dell'Abbazia di Nonantola per il fatto che Alberico, figlio di Gisone, prese a livello dall'Abate Rodolfo di Nonantola la Corte e il Castello di Sant'Agata, situati fra S. Giovanni in Persiceto e Nonantola. Ad Alberico successe Tegrimo, noto intorno al 1061 per i rapporti avuti col Vescovato di Parma e coi Benedettini della suddetta Abbazia. Suo figlio Azelo o Azo, morto il 4 settembre del 1089, è ricordato in una lapide di marmo d'Istria rinvenuta nella chiesa plebana di S. Biagio e che opportunamente l'arciprete Gaetano Botti ha murata presso l'arcata di accesso alla cripta nella nave minore meridionale. Ma i Signori di Sala ancor più si resero noti nella storica lotta delle investiture fra il santo e fiero Gregorio VII e l'imperatore Arrigo IV. Vassalli dell'Abbazia di Nonantola e obbligati a difendere il Castello di S. Agata, in quel burrascoso e tanto importante periodo della storia ebbero a seguire lo stesso indirizzo assunto dall'Abate Landolfo I e dai Monaci di Nonantola, i quali si erano schierati nel partito dell'Imperatore. La celebre contessa Matilde di Toscana, fedele alleata del Papato, presto debellò questi vassalli di Arrigo, espugnando il Castello di Sant'Agata che, come riferisce il Calindri, in dodici anni non era stato sufficientemente fortificato dai Signori di Sala. Dopo la storica umiliazione di Canossa del gennaio 1077 e alla ripresa delle ostilità da parte dell'Imperatore fedifrago, troviamo i Signori da Sala e i Benedettini di Nonantola passati al partito del Papa, non solo, ma divenuti amici ed alleati fra i più fedeli di Matilde. Una profonda ragione che giustifichi questo mutamento di partito è data, oltreché dalla scomunica di Gregorio VII lanciata nel 1076 contro l'arrogante Arrigo, dalla generosità dimostrata da Matilde verso i vinti in occasione della suddetta conquista da lei compiuta del castello di Sant'Agata. Signori da Sala in particolar modo ebbero a dimostrare amicizia e fedeltà verso la più grande marchesana d'Italia di quel tempo quando essa ebbe l'esercito sconfitto dall'imperatore teutonico.</p>
+				</div>
+			</div>
+		</body>
+	</text>
+</TEI>

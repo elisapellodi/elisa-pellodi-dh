@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="../stylesheets/progettotei.css" type="text/css"?>
+<?oxygen RNGSchema="../schemas/teilite.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="pellodi_la_pieve_di_santa_maria_annunziata_e_san_biagio_a_sala_bolognese_il_monumento_e_i_suoi_restauri">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>La Pieve di Santa Maria Annunziata e San Biagio a Sala Bolognese: il Monumento e i suoi Restauri</title>
+				<author>Pellodi, Elisa</author>
+				<respStmt>
+					<resp>Header creation by</resp>
+					<name>Elisa Pellodi</name>
+				</respStmt>
+				<respStmt>
+					<resp>Encoded by</resp>
+					<name>Elisa Pellodi</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Università degli Studi di Verona</publisher>
+				<pubPlace>
+					<address>
+						<addrLine>Verona</addrLine>
+					</address>
+				</pubPlace>
+				<date>2021</date>
+				<availability>
+					<p>??This text is freely available provided the text is distributed with the header information provided.??</p>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>La Pieve di Santa Maria Annunziata e San Biagio a Sala Bolognese: il Monumento e i suoi Restauri. Pellodi, Elisa. 2021</bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<body>
+			<div type="chapter" n="3">
+				<head>Analisi Descrittiva</head>
+					<p>L’edificio presenta una pianta basilicale a sviluppo longitudinale orientata ed è realizzato in laterizi. La facciata è a salienti (o a falde distinte), con le tre sezioni separate da paraste quadrangolari; è presente inoltre un’ulteriore divisione, costituita da lesene anch’esse quadrangolari poste al centro di ciascuna delle due porzioni laterali. Ad evidenziare il profilo superiore del prospetto anteriore si trova una decorazione ad archetti pensili che prosegue anche lungo tutto il perimetro dell’edificio. Al centro del fronte è evidente una porzione di muro aggettante contenente il portale d’ingresso, composto da un sistema trilitico, con architrave in pietra che sostiene la lunetta murata con mattoncini di forma esagonale. Nella parte alta e centrale del muro occidentale si trova una bifora, leggermente rientrante rispetto alla superficie muraria, divisa da una piccola colonna in pietra bianca. Al di sopra di tale apertura è evidente, incastonata nella muratura, una croce greca (i due bracci sono della stessa lunghezza) in pietra bianca. Ai lati della porta principale sono presenti due targhe lapidee con iscrizioni in lingua latina. [...] Sul prospetto orientale si trovano le tre absidi di forma semicircolare, tra le quali quella mediana è di dimensione maggiore rispetto alle due laterali. Queste presentano una monofora nella parte centrale e una decorazione ad archetti pensili su peduccio nella parte superiore della conca. Quella maggiore si presenta con una decorazione più elaborata: la superficie è divisa in cinque sezioni da sottili lesene, ci sono sei monofore (due nelle specchiature laterali e due in quella centrale). Come coronamento di tale abside sono presenti archetti binati separati da semicolonne in laterizi e capitelli in pietra, sovrastati poi da archetti pensili su peduccio. [...] All’interno l’edificio è diviso in tre navate da pilastri compositi con anima quadrangolare e semicolonne addossate su ciascuna faccia. La nave centrale è di dimensioni maggiori rispetto alle due laterali e prevede due serie di archi a tutto sesto in cui l’intradosso è in selenite. La divisione delle campate prosegue anche sul soprastante muro percorso da paraste. Le semicolonne che compongono i pilastri sono coronate da capitelli cubici scantonati, con parti angolari incave, un listello che corre lungo lo scudo e collarino appena sotto, anch’essi in selenite. Al di sopra delle arcate si trova una sottile cornice in laterizi aggettante, sovrastata a sua volta da monofore inserite in campate alterne. La copertura è a capriate lignee, sia nella navata centrale, sia in quelle laterali. [...] Al termine della navata mediana è posta una scalinata in pietra, sul cui lato nord si trova l’ambone, protetto da lastre lapidee scolpite con motivi geometrici e vegetali. Questo scalone conduce alla sezione centrale della zona presbiteriale. [...] Il presbiterio è dunque formato da una grande pedana sopraelevata e viene reciso in tre aree dalle arcate su pilastri compositi della navata mediana. Si formano così il Santuario al centro concluso dal catino absidale maggiore e ai lati aree che corrispondo alle testate minori sulle quali insistono i catini nord e sud. [...] La cripta si trova sotto la zona presbiteriale, in un piano ribassato rispetto a quello delle navate, e si estende per tutta la larghezza dell’edificio. Anch’essa è divisa in tre navate, di cui quella centrale è la maggiore; esse sono divise da cinque arcate a tutto sesto, sorrette da colonne in laterizio e pilastri compositi disposti secondo lo schema alternato regolare. Le colonne sono completate da capitelli di vario stile e basamenti di tipo ionico. Ogni campata presenta una copertura a crociera, stuccata, impostata su archi a tutto sesto, ciascuno realizzato in mattoni. [...] Ogni navata si conclude con il catino semicircolare. Nella zona interna all’abside centrale si trova l’altare maggiore a forma di parallelepipedo a cui è applicata sul fronte una stoffa dipinta. Anche all’interno di ciascuna delle aree antistanti le absidali laterali si trova un altare, a pianta rettangolare, realizzato in mattoni e con la mensa in pietra.</p>
+			</div>
+		</body>
+	</text>
+</TEI>
