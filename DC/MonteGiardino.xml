@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:mp="http//ilmioprogetto.it">
+	<dc:title>Chiesa di San Vittore</dc:title>
+	<dc:creator>sconosciuto</dc:creator>
+	<dc:subject>Cenobio di San Vittore</dc:subject>
+	<dc:description>Chiesa dedicata a San Vittore, con annesso chiostro e altri ambienti per la vita canonicale. Edificio in stile romanico situato sui primi colli bolognesi</dc:description>
+	<dc:contributor>Comunità dei Canonici Lateranensi</dc:contributor>
+	<dc:date>XII secolo</dc:date>
+	<dc:type>Edificio</dc:type>
+	<dc:coverage>colle Monte Giardino (BO), Italia</dc:coverage>
+	<dc:rights>Free access</dc:rights>
+</metadata>
