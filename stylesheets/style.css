@@ -1,0 +1,19 @@
+.container, .carousel, .container-md, header {
+	margin-bottom: 25px;
+}
+
+#map-container iframe {
+	height: 500px;
+	width: 100%;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+footer {
+	margin-top: 150px;
+	padding: 15px;
+}
