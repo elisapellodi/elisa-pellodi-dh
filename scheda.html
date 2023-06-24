@@ -44,40 +44,81 @@
           </div>
         </nav>
     </header>
-    <main>
-      <div>
-          <h5>L'EDIFICIO</h5>
-      </div>
-      <div id="description">
+    <main class="container-md">
+      <h2>Pieve</h2>
+        <div id="carouselSchedaIndicator" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselSchedaIndicator" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselSchedaIndicator" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselSchedaIndicator" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselSchedaIndicator" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner rounded-top">
+            <div class="carousel-item active">
+                <img src="img/pieve.jpg" class="d-block w-100" alt="Facciata">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="text-dark">Facciata</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/absidi.jpg" class="d-block w-100" alt="Absidi">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-dark">Absidi</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/navata.jpg" class="d-block w-100" alt="Navata">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-dark">Navata</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="img/cripta.jpg" class="d-block w-100" alt="Cripta">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="text-dark">Cripta</h5>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselSchedaIndicator" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselSchedaIndicator" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12">
+          <h5>Edificio</h5>
           <p>Si tratta di una chiesa a pianta basilicale divisa in tre navate separate da pilastri compositi e concluse da tre absidi, quella centrale ampia il doppio delle laterali. La facciata è di tipo a salienti e la copertura interna è a capriate lignee. L’apparato murario si presenta interamente realizzato in laterizi. All’interno la zona presbiteriale è rialzata rispetto alle navate e accessibile attraverso tre scalinate. Al di sotto di essa si sviluppa la cripta che presenta le stesse dimensioni dell'area soprastante.</p>
-      <div>
-          <h5>L'ORIGINE</h5>
-      </div>
-      <div id="paese">
+          <h5>Origine</h5>
           <p>L’edificio sorge nel comune di Sala Bolognese, nella pianura emiliana, a poca distanza dalla città di Bologna. Si tratta di un borgo dalle origini molto antiche e il cui nome si ricollega alla casata che per molto tempo lo ha governato, la Famiglia da Sala.
           Secondo le testimonianze, piuttosto frammentarie, l’edificio fu eretto nel 1096 proprio per volere della famiglia sopra citata, con la denominazione di Chiesa Plebana, dedita dunque all’accoglienza di tutta la comunità dei cittadini.
           In seguito a molte variazioni nel corso dei secoli la chiesa è oggi dedicata a Santa Maria Annunziata e San Biagio.</p>
-      <div>
-          <h5>I RESTAURI</h5>
-      </div>
-      <div id="restauri">
+          <h5>Restauri</h5>
           <p>Con il passare dei secoli la Pieve ha subito numerose variazioni di aspetto, ma sicuramente le due più consistenti sono state quelle avvenute nel XVIII e nel XX sec.
           Il primo intervento di modifica portò l’edificio di XI sec. ad assumere un aspetto completamente diverso, rispecchiante lo stile Barocco. Per ottenere questo risultato fu addossata una nuova facciata a quella originale, fu abbassato il presbiterio al livello delle navate, portando all’eliminazione della cripta e furono eliminate le absidi minori.
           Nel XX sec. invece l’intento fu quello di riportare la chiesa al suo presunto aspetto originario, seguendo alcune delle poche informazioni documentarie e osservando edifici di stile romanico presenti sul territorio emiliano. A tal scopo fu eliminata la facciata barocca, rialzato il presbiterio, ricreata la cripta e ricostruite le absidi minori. Questi lavori furono fortemente voluti dall’allora parroco, don Gaetano Botti, e sovrintesi da Giuseppe Rivani.</p>
+        </div>
+        <div class="col-lg-6 col-sm-12 p-2">
+          <div class="container summary">
+            <h5>Santo Stefano</h5>
+            <p class="luogo m-0"><span>Luogo: </span>Bologna</p>
+            <p class="tipologia"><span>Tipologia: </span>Edificio</p>
+          </div>
+        </div>
       </div>
     </main>
     <footer>
-        <div class="container-fluid background-gray">
-            <p class="mb-0 pb-1 pt-1 text-center">© Copyright</p>
-        </div>
+      <div class="container-fluid background-gray">
+          <p class="mb-0 pb-1 pt-1 text-center">© Copyright</p>
+      </div>
     </footer>
-
-
-
-	<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" 
-        integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" 
-        crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
-        crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" 
+    integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" 
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
 </body>
