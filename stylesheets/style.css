@@ -1,5 +1,29 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+
+.navbar {
+	background-color: #FADCD2;
+}
+
+footer {
+	background-color: #FADCD2;
+}
+
 .container, .carousel, .container-md, header {
 	margin-bottom: 25px;
+}
+
+form {
+	margin-bottom: 0;
+}
+
+h2 {
+	margin-bottom: 25px;
+}
+
+#map-container {
+	margin-bottom: 550px;
 }
 
 #map-container iframe {
