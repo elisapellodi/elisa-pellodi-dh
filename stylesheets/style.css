@@ -3,11 +3,11 @@
 }
 
 body {
-    font-family: 'Merriweather', serif;
+    font-family: 'Raleway', serif;
 }
 
 .navbar {
-	background-color: #FADCD2;
+	background-color: #faf0e6;
 }
 
 .container, .carousel, .container-md, header, h2 {
@@ -19,7 +19,7 @@ form {
 }
 
 .carousel-caption {
-	background-color: #FADCD2;
+	background-color: #faf0e6;
 	width: 30%;
 	left: 0;
 	padding: 5px;
@@ -46,5 +46,5 @@ form {
 footer {
 	margin-top: 150px;
 	padding: 15px;
-	background-color: #FADCD2;
+	background-color: #faf0e6;
 }

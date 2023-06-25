@@ -10,8 +10,8 @@
     <!-- css -->
     <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
     <!-- bootstrap icons -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css"> -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 </head>
 <body>
 	<header>
@@ -47,11 +47,17 @@
     <main>
       <div class="container">
         <h2>Catalogo</h2>
+        <p>Schede degli oggetti e dei testi presentati, l'immagine conduce a un approfondimento, mentre i bottoni rendono visualizzabile i relativi file <i>Dublin Core</i> e <i>Text Encodin Initiative</i></p>
+        <div class="container-fluid filters p-0">
+          <span>Filtra:</span>
+          <button class="btn btn-outline-dark ml-0 mb-2 dc">Dublin Core</button>
+          <button class="btn btn-outline-dark ml-0 mb-2 tei">Text Encoding Initiavite</button>
+        </div>
         <div class="row">
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0">
+          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
             <div class="wrapper shadow border-0 rounded">
               <a href="scheda.html" target="_blank">
-                  <img src="img/placeholder-vertical.png" class="d-block w-100 mb-2 rounded-top" alt=".....">
+                  <img src="img/pieve2.jpg" class="d-block w-100 mb-2 rounded-top" alt=".....">
                 </a>
               <div class="container summary">
                 <h5>Chiesa di Santa Maria Annunziata e San Biagio</h5>
@@ -63,9 +69,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0">
+          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
             <div class="wrapper shadow border-0 rounded">
-              <img src="img/placeholder-vertical.png" class="d-block w-100 mb-2 rounded-top" alt="...">
+              <img src="img/monteveglio.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
               <div class="container summary">
                 <h5>Chiesa di Santa Maria Assunta</h5>
                 <p class="luogo m-0"><span>Luogo: </span>Monteveglio</p>
@@ -76,9 +82,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0">
+          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
             <div class="wrapper shadow border-0 rounded">
-              <img src="img/placeholder-vertical.png" class="d-block w-100 mb-2 rounded-top" alt="...">
+              <img src="img/vittore.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
               <div class="container summary">
                 <h5>Chiesa di San Vittore</h5>
                 <p class="luogo m-0"><span>Luogo: </span>Bologna</p>
@@ -89,9 +95,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0">
+          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
             <div class="wrapper shadow border-0 rounded">
-              <img src="img/placeholder-vertical.png" class="d-block w-100 mb-2 rounded-top" alt="...">
+              <img src="img/roffeno.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
               <div class="container summary">
                 <h5>Chiesa di San Pietro</h5>
                 <p class="luogo m-0"><span>Luogo: </span>Roffeno</p>
@@ -102,9 +108,9 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0">
+          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
             <div class="wrapper shadow border-0 rounded">
-              <img src="img/placeholder-vertical.png" class="d-block w-100 mb-2 rounded-top" alt="...">
+              <img src="img/stefano.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
               <div class="container summary">
                 <h5>Santo Stefano</h5>
                 <p class="luogo m-0"><span>Luogo: </span>Bologna</p>
@@ -115,7 +121,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0">
+          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card tei-card">
             <div class="wrapper shadow border-0 rounded">
               <img src="img/placeholder-vertical.png" class="d-block w-100 mb-2 rounded-top" alt="...">
               <div class="container summary">
@@ -129,7 +135,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0">
+          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 tei-card dc-card">
             <div class="wrapper shadow border-0 rounded">
               <img src="img/placeholder-vertical.png" class="d-block w-100 mb-2 rounded-top" alt="...">
               <div class="container summary">
@@ -143,7 +149,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0">
+          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card tei-card">
             <div class="wrapper shadow border-0 rounded">
               <img src="img/placeholder-vertical.png" class="d-block w-100 mb-2 rounded-top" alt="...">
               <div class="container summary">
@@ -157,7 +163,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0">
+          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 tei-card dc-card">
             <div class="wrapper shadow border-0 rounded">
               <img src="img/placeholder-vertical.png" class="d-block w-100 mb-2 rounded-top" alt="...">
               <div class="container summary">
