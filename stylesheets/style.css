@@ -3,7 +3,7 @@
 }
 
 body {
-    font-family: 'Raleway', serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .navbar {
@@ -41,6 +41,10 @@ form {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.summary span {
+	font-weight: 600;
 }
 
 footer {
