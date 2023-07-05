@@ -14,6 +14,43 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+  <!-- prettier-ignore -->
+  <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+        ({key: "AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg", v: "beta"});</script>
+    <script>
+      let map;
+      async function initMap() {
+        const position_pieve = { lat: 44.61635, lng: 11.25723 };
+        const { Map } = await google.maps.importLibrary("maps");
+        const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+
+        map = new Map(document.getElementById("map"), {
+          zoom: 4,
+          center: position_pieve,
+          mapId: "DEMO_MAP_ID",
+        });
+
+        const marker_pieve = new AdvancedMarkerElement({
+          map: map,
+          position: position_pieve,
+          title: "Pieve",
+        });
+        marker_pieve.addListener("click", () => {
+          window.open("https://elisapellodi.github.io/elisa-pellodi-dh/scheda.html", "_blank")
+        });
+        const position_monteveglio = { lat: 44.46927, lng: 11.09204 };
+        const marker_monteveglio = new AdvancedMarkerElement({
+          map: map,
+          position: position_monteveglio,
+          title: "Monteveglio",
+        });
+        marker_monteveglio.addListener("click", () => {
+          window.open("https://elisapellodi.github.io/elisa-pellodi-dh/DC/Monteveglio.xml", "_blank")
+        });
+      }
+  initMap();
+  </script>
 </head>
 <body>
     <header>
@@ -48,11 +85,8 @@
     </header>
     <main class="container-md">
       <h2>Mappa dei Luoghi</h2>
-      <p>Nella seguente mappa è possibile individuare la collocazione precisa di tutti gli edifici presi in esame.
-      Clicca sulle icone per scoprire di più.</p>
-      <div id="map-container" class="shadow-lg">
-          <iframe src="https://www.google.com/maps/d/embed?mid=1GObfFaEqkc0QQyAeg5MhWQbC3S2iP_U&ehbc=2E312F" allowfullscreen></iframe>
-      </div>
+      <p>Nella seguente mappa è possibile navigare alle schede degli item tramite la loro locazione geografica</p>
+      <div id="map" class="shadow-lg"></div>
     </main>
     <footer>
         <div class="container-fluid background-gray">
