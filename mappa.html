@@ -21,16 +21,26 @@
     <script>
       let map;
       async function initMap() {
-        const position_pieve = { lat: 44.61635, lng: 11.25723 };
+        const position_bologna = { lat: 44.49175, lng: 11.34874 };
         const { Map } = await google.maps.importLibrary("maps");
         const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 
         map = new Map(document.getElementById("map"), {
           zoom: 10,
-          center: position_pieve,
+          center: position_bologna,
           mapId: "DEMO_MAP_ID",
         });
 
+        const marker_bologna = new AdvancedMarkerElement({
+          map: map,
+          position: position_bologna,
+          title: "Bologna",
+        });
+        marker_bologna.addListener("click", () => {
+          window.open("https://elisapellodi.github.io/elisa-pellodi-dh/DC/Bologna.xml", "_blank")
+        });
+
+        const position_pieve = { lat: 44.61635, lng: 11.25723 };
         const marker_pieve = new AdvancedMarkerElement({
           map: map,
           position: position_pieve,
@@ -39,6 +49,7 @@
         marker_pieve.addListener("click", () => {
           window.open("https://elisapellodi.github.io/elisa-pellodi-dh/scheda.html", "_blank")
         });
+
         const position_monteveglio = { lat: 44.46927, lng: 11.09204 };
         const marker_monteveglio = new AdvancedMarkerElement({
           map: map,
@@ -47,6 +58,26 @@
         });
         marker_monteveglio.addListener("click", () => {
           window.open("https://elisapellodi.github.io/elisa-pellodi-dh/DC/Monteveglio.xml", "_blank")
+        });
+
+        const position_vergato = { lat: 44.29829, lng: 11.05391 };
+        const marker_vergato = new AdvancedMarkerElement({
+          map: map,
+          position: position_vergato,
+          title: "Vergato",
+        });
+        marker_vergato.addListener("click", () => {
+          window.open("https://elisapellodi.github.io/elisa-pellodi-dh/DC/Roffeno.xml", "_blank")
+        });
+
+        const position_monte = { lat: 44.46843, lng: 11.34167 };
+        const marker_monte = new AdvancedMarkerElement({
+          map: map,
+          position: position_monte,
+          title: "MonteGiardino",
+        });
+        marker_monte.addListener("click", () => {
+          window.open("https://elisapellodi.github.io/elisa-pellodi-dh/DC/MonteGiardino.xml", "_blank")
         });
       }
   initMap();
