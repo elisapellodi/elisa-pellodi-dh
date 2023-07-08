@@ -2,11 +2,12 @@
 <metadata
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:dc="http://purl.org/dc/elements/1.1/"
-xmlns:mp="http//ilmioprogetto.it">
+xmlns:mp="http//elisapellodi.github.io/elisa-pellodi-dh/">
 	<dc:title>Chiesa di Santo Stefano a Bologna</dc:title>
 	<dc:creator>sconosciuto</dc:creator>
 	<dc:subject>Complesso delle Sette Chiese di Bologna</dc:subject>
 	<dc:description>Complesso che unisce diversi edifici di culto cristiani. Realizzati con la volontà di ricreare il percorso di fede in Terra Santa. Edifici in gran parte in stile romanico e situati nel centro storico della città di Bologna</dc:description>
+	<dc:contributor>Elisa Pellodi</dc:contributor>
 	<dc:date>tra X e XIII secolo</dc:date>
 	<dc:type>Edificio</dc:type>
 	<dc:coverage>Bologna, Italia</dc:coverage>

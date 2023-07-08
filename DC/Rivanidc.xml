@@ -2,14 +2,16 @@
 <metadata
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:dc="http://purl.org/dc/elements/1.1/"
-xmlns:mp="http//ilmioprogetto.it">
+xmlns:mp="http//elisapellodi.github.io/elisa-pellodi-dh/">
 	<dc:title>L'Antica Pieve di Sala Bolognese e il suo Restauro</dc:title>
 	<dc:creator mp:formacontrollata="Rivani">Rivani, Giuseppe</dc:creator>
 	<dc:subject>Chiesa di Santa Maria Annunziata e San Biagio</dc:subject>
 	<dc:description>Descrizione delle vicende storiche che hanno interessato la Chiesa plebana di Sala Bolognese e dei restauri che ha subito nel XX secolo.</dc:description>
 	<dc:publisher>Scuola Grafica Salesiana, Bologna</dc:publisher>
+	<dc:contributor>Elisa Pellodi</dc:contributor>
 	<dc:date>1977</dc:date>
 	<dc:type>Libro di testo</dc:type>
+	<dc:relation>IT\ICCU\UBO\0274784</dc:relation>
 	<dc:language>Italiano</dc:language>
 	<dc:rights>??Free access??</dc:rights>
 </metadata>
