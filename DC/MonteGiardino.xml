@@ -3,14 +3,15 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:dc="http://purl.org/dc/elements/1.1/"
 xmlns:mp="http//elisapellodi.github.io/elisa-pellodi-dh/">
-	<dc:title>Chiesa di San Vittore</dc:title>
+	<dc:title>Chiesa di S. Vittore (chiesa conventuale) chiesa ( conventuale)</dc:title>
 	<dc:creator>sconosciuto</dc:creator>
-	<dc:subject>Cenobio di San Vittore</dc:subject>
+	<dc:subject>Chiesa di S. Vittore</dc:subject>
 	<dc:description>Chiesa dedicata a San Vittore, con annesso chiostro e altri ambienti per la vita canonicale. Edificio in stile romanico situato sui primi colli bolognesi</dc:description>
 	<dc:contributor>Comunità dei Canonici Lateranensi</dc:contributor>
 	<dc:contributor>Elisa Pellodi</dc:contributor>
 	<dc:date>XII secolo</dc:date>
-	<dc:type>Edificio</dc:type>
-	<dc:coverage>colle Monte Giardino (BO), Italia</dc:coverage>
-	<dc:rights>Free access</dc:rights>
+	<dc:type>chiesa conventuale</dc:type>
+	<dc:coverage>Bologna (BO)</dc:coverage>
+	<dc:source>https://dati.beniculturali.it/lodview-arco/resource/ArchitecturalOrLandscapeHeritage/0800241863.html</dc:source>
+	<dc:rights>proprietà Stato</dc:rights>
 </metadata>

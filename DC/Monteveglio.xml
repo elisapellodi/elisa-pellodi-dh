@@ -3,14 +3,16 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:dc="http://purl.org/dc/elements/1.1/"
 xmlns:mp="http//elisapellodi.github.io/elisa-pellodi-dh/">
-	<dc:title>Chiesa di Santa Maria Assunta</dc:title>
+	<dc:title>Chiesa di S. Maria Assunta (chiesa parrocchiale) chiesa ( parrocchiale)</dc:title>
 	<dc:creator>sconosciuto</dc:creator>
-	<dc:subject>Chiesa di Santa Maria Assunta a Monteveglio</dc:subject>
+	<dc:subject>Chiesa di S. Maria Assunta</dc:subject>
 	<dc:description>Chiesa dedicata a Santa Maria Assunta, situata nel comune di Monteveglio. Edificio in stile romanico, costruito per volere di Matilde di Canossa</dc:description>
 	<dc:contributor>Matilde di Canossa</dc:contributor>
 	<dc:contributor>Elisa Pellodi</dc:contributor>
 	<dc:date>XI secolo</dc:date>
-	<dc:type>Edificio</dc:type>
-	<dc:coverage>Monteveglio (BO), Italia</dc:coverage>
-	<dc:rights>Free access</dc:rights>
+	<dc:date>1925-1934</dc:date>
+	<dc:type>chiesa parrocchiale</dc:type>
+	<dc:coverage>Valsamoggia (BO)</dc:coverage>
+	<dc:source>https://dati.beniculturali.it/lodview-arco/resource/ArchitecturalOrLandscapeHeritage/0800244183.html</dc:source>
+	<dc:rights>proprietà Ente religioso cattolico</dc:rights>
 </metadata>

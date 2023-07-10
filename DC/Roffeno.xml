@@ -3,14 +3,16 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xmlns:dc="http://purl.org/dc/elements/1.1/"
 xmlns:mp="http//elisapellodi.github.io/elisa-pellodi-dh/">
-	<dc:title>Pieve di San Pietro di Roffeno</dc:title>
+	<dc:title>Chiesa di S. Pietro di Pieve di Roffeno (chiesa) chiesa</dc:title>
 	<dc:creator>sconosciuto</dc:creator>
-	<dc:subject>Chiesa di San Pietro</dc:subject>
+	<dc:subject>Chiesa di S. Pietro di Pieve di Roffeno</dc:subject>
 	<dc:description>Chiesa plebana dedicata a San Pietro, situata nel borgo di Pieve si Roffeno, poco lontano dal comune di Vergato. Edificio in stile romanico come gran parte del borgo.</dc:description>
 	<dc:contributor>maestri comacini provenienti dalla Toscana</dc:contributor>
 	<dc:contributor>Elisa Pellodi</dc:contributor>
 	<dc:date>metà del XII secolo</dc:date>
-	<dc:type>Edificio</dc:type>
-	<dc:coverage>Borgo di Pieve di Roffeno, Vergato (BO), Italia</dc:coverage>
-	<dc:rights>Free access</dc:rights>
+	<dc:date>1602/00/00-1602/00/00</dc:date>
+	<dc:type>chiesa</dc:type>
+	<dc:coverage>Vergato (BO)</dc:coverage>
+	<dc:source>https://dati.beniculturali.it/lodview-arco/resource/ArchitecturalOrLandscapeHeritage/0800263880.html</dc:source>
+	<dc:rights>proprietà Ente religioso cattolico</dc:rights>
 </metadata>

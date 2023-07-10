@@ -8,8 +8,13 @@ xmlns:mp="http//elisapellodi.github.io/elisa-pellodi-dh/">
 	<dc:subject>Complesso delle Sette Chiese di Bologna</dc:subject>
 	<dc:description>Complesso che unisce diversi edifici di culto cristiani. Realizzati con la volontà di ricreare il percorso di fede in Terra Santa. Edifici in gran parte in stile romanico e situati nel centro storico della città di Bologna</dc:description>
 	<dc:contributor>Elisa Pellodi</dc:contributor>
-	<dc:date>tra X e XIII secolo</dc:date>
-	<dc:type>Edificio</dc:type>
+	<dc:date>938/00/00-938/00/00</dc:date>
+	<dc:date>1877/00/00-1895/00/00</dc:date>
+	<dc:date>1019/00/00-1019/00/00</dc:date>
+	<dc:date>1637/00/00-1637/00/00</dc:date>
+	<dc:date>1920/00/00-1920/00/00</dc:date>
+	<dc:type>Chiesa</dc:type>
 	<dc:coverage>Bologna, Italia</dc:coverage>
-	<dc:rights>Free access</dc:rights>
+	<dc:source>https://dati.beniculturali.it/lodview-arco/resource/ArchitecturalOrLandscapeHeritage/0800242970.html</dc:source>
+	<dc:rights>proprietà Ente religioso cattolico</dc:rights>
 </metadata>
