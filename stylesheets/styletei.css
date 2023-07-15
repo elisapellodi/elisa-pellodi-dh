@@ -1,0 +1,45 @@
+author { 
+	display: block; 
+	font-style: italic; 
+}
+
+body { 
+	display: block;
+	background: #e2c2c6;
+	width: 97%;
+	padding: 25px; 
+}
+
+sourceDesc, respStmt, publicationStmt, availability { 
+	display: block; 
+	margin-top: 1em; 
+}
+
+head { 
+	display: block; 
+	font-family: arial; 
+	margin-bottom: 1em; 
+	margin-top: 1em 
+}
+
+addrline, publicationStmt publisher, publicationStmt date { 
+	display: block; 
+}
+
+sourceDesc title { 
+	font-style: italic; 
+}
+
+teiHeader { 
+	display: block;
+	background: #faf0e6;
+	width: 97%;
+	border-bottom-width: 0px;
+	padding: 25px;
+	font-size: 85%; 
+}
+
+titleStmt title { 
+	display: block; 
+	font-weight: bold; 
+}
