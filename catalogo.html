@@ -1,207 +1,210 @@
-<head>
-  <!-- charset -->
-  <meta charset="utf-8">
-  <!-- viewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" href="img/chiesa.png">
-  <title>Catalogo</title>
-  <!-- bootstrap css -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <!-- css -->
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-  <!-- bootstrap icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-</head>
-<body>
-	<header>
-       <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">Romanico a Bologna</a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Obiettivo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Catalogo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="mappa.html">Mappa</a>
-                </li>
-              </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Cerca">
-                <button class="btn btn-outline-dark" type="submit">Cerca</button>
-              </form>
+<!doctype html>
+<html lang="it">
+  <head>
+    <!-- charset -->
+    <meta charset="utf-8">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/chiesa.png">
+    <title>Catalogo</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+  	<header>
+         <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="#">Romanico a Bologna</a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Obiettivo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Catalogo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="mappa.html">Mappa</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Cerca">
+                  <button class="btn btn-outline-dark" type="submit">Cerca</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+      </header>
+      <main>
+        <div class="container">
+          <h2>Catalogo</h2>
+          <p class="m-0">Sono qui presentate le schede degli edifici e dei testi presi in esame.</p>
+          <p>Le immagini conducono ad un approfondimento in merito agli elementi stessi, mentre i bottoni rendono visualizzabile i relativi file <i>Dublin Core</i> e <i>Text Encodin Initiative</i></p>
+          <div class="container-fluid filters p-0">
+            <span>Filtra:</span>
+            <button class="btn btn-outline-dark ml-0 mb-2 dc">Dublin Core</button>
+            <button class="btn btn-outline-dark ml-0 mb-2 tei">Text Encoding Initiavite</button>
+          </div>
+          <div class="container-fluid order p-0">
+            <span>Ordina:</span>
+            <button class="btn btn-outline-dark ml-0 mb-2 alfcre">Alfabetico crescente</button>
+            <button class="btn btn-outline-dark ml-0 mb-2 alfdecre">Alfabetico decrescente</button>
+          </div>
+            <h3>Edifici</h3>
+          <div class="row">
+            <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
+              <div class="wrapper shadow border-0 rounded">
+                <a href="scheda.html">
+                    <img src="img/pieve2.jpg" class="d-block w-100 mb-2 rounded-top" alt=".....">
+                  </a>
+                <div class="container summary">
+                  <h5>Chiesa di Santa Maria Annunziata e San Biagio</h5>
+                  <p class="luogo m-0"><span>Luogo: </span>Sala Bolognese</p>
+                  <p class="tipologia"><span>Tipologia: </span>Edificio</p>
+                </div>
+                <div class="container">
+                  <a href="DC/SalaBolognese.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
+              <div class="wrapper shadow border-0 rounded">
+                <img src="img/monteveglio.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
+                <div class="container summary">
+                  <h5>Chiesa di Santa Maria Assunta</h5>
+                  <p class="luogo m-0"><span>Luogo: </span>Monteveglio</p>
+                  <p class="tipologia"><span>Tipologia: </span>Edificio</p>
+                </div>
+                <div class="container">
+                  <a href="DC/Monteveglio.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
+              <div class="wrapper shadow border-0 rounded">
+                <img src="img/vittore.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
+                <div class="container summary">
+                  <h5>Chiesa di San Vittore</h5>
+                  <p class="luogo m-0"><span>Luogo: </span>Bologna</p>
+                  <p class="tipologia"><span>Tipologia: </span>Edificio</p>
+                </div>
+                <div class="container">
+                  <a href="DC/MonteGiardino.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
+              <div class="wrapper shadow border-0 rounded">
+                <img src="img/roffeno.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
+                <div class="container summary">
+                  <h5>Chiesa di San Pietro</h5>
+                  <p class="luogo m-0"><span>Luogo: </span>Roffeno</p>
+                  <p class="tipologia"><span>Tipologia: </span>Edificio</p>
+                </div>
+                <div class="container">
+                  <a href="DC/Roffeno.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
+              <div class="wrapper shadow border-0 rounded">
+                <img src="img/stefano.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
+                <div class="container summary">
+                  <h5>Santo Stefano</h5>
+                  <p class="luogo m-0"><span>Luogo: </span>Bologna</p>
+                  <p class="tipologia"><span>Tipologia: </span>Edificio</p>
+                </div>
+                <div class="container">
+                  <a href="DC/Bologna.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
+                </div>
+              </div>
+            </div>
+            <h3>Testi</h3>
+            <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 tei-card dc-card">
+              <div class="wrapper shadow border-0 rounded">
+                <img src="img/rivani.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
+                <div class="container summary">
+                  <h5>L'Antica Pieve di Sala Bolognese e il suo Restauro</h5>
+                  <p class="autore m-0"><span>Autore: </span>Rivani, Giuseppe</p>
+                  <p class="tipologia"><span>Tipologia: </span>Testo</p>
+                </div>
+                <div class="container">
+                  <a href="DC/Rivanidc.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
+                  <a href="TEI/rivani.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 tei">TEI</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card tei-card">
+              <div class="wrapper shadow border-0 rounded">
+                <img src="img/sala.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
+                <div class="container summary">
+                  <h5>Basilica di Santa Maria Annunziata e San Biagio</h5>
+                  <p class="autore m-0"><span>Autore: </span>Barbieri, Guglielmo</p>
+                  <p class="tipologia"><span>Tipologia: </span>Testo</p>
+                </div>
+                <div class="container">
+                  <a href="DC/Barbieridc.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
+                  <a href="TEI/barbieri.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 tei">TEI</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 tei-card dc-card">
+              <div class="wrapper shadow border-0 rounded">
+                <img src="img/padusa.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
+                <div class="container summary">
+                  <h5>Oltre Padusa, nel Tempo. Sala, Paese di Terra e di Acque.</h5>
+                  <p class="autore m-0"><span>Autori: </span>Farneti Poli, Rita. Zanichelli, Simona</p>
+                  <p class="tipologia"><span>Tipologia: </span>Testo</p>
+                </div>
+                <div class="container">
+                  <a href="DC/FarnetiPolidc.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
+                  <a href="TEI/farnetipoli.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 tei">TEI</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card tei-card">
+              <div class="wrapper shadow border-0 rounded">
+                <img src="img/pellodi.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
+                <div class="container summary">
+                  <h5>La Pieve di Santa Maria Annunziata e San Biagio a Sala Bolognese: il Monumento e i suoi Restauri</h5>
+                  <p class="autore m-0"><span>Autore: </span>Pellodi, Elisa</p>
+                  <p class="tipologia"><span>Tipologia: </span>Testo</p>
+                </div>
+                <div class="container">
+                  <a href="DC/Pellodidc.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
+                  <a href="TEI/pellodi.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 tei">TEI</a>
+                </div>
+              </div>
             </div>
           </div>
-        </nav>
-    </header>
-    <main>
-      <div class="container">
-        <h2>Catalogo</h2>
-        <p class="m-0">Sono qui presentate le schede degli edifici e dei testi presi in esame.</p>
-        <p>Le immagini conducono ad un approfondimento in merito agli elementi stessi, mentre i bottoni rendono visualizzabile i relativi file <i>Dublin Core</i> e <i>Text Encodin Initiative</i></p>
-        <div class="container-fluid filters p-0">
-          <span>Filtra:</span>
-          <button class="btn btn-outline-dark ml-0 mb-2 dc">Dublin Core</button>
-          <button class="btn btn-outline-dark ml-0 mb-2 tei">Text Encoding Initiavite</button>
         </div>
-        <div class="container-fluid order p-0">
-          <span>Ordina:</span>
-          <button class="btn btn-outline-dark ml-0 mb-2 alfcre">Alfabetico crescente</button>
-          <button class="btn btn-outline-dark ml-0 mb-2 alfdecre">Alfabetico decrescente</button>
+      </main>
+      <footer>
+        <div class="container-fluid background-gray">
+            <p class="mb-0 pb-1 pt-1 text-center">© Copyright CC BY-SA 4.0</p>
         </div>
-          <h3>Edifici</h3>
-        <div class="row">
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
-            <div class="wrapper shadow border-0 rounded">
-              <a href="scheda.html">
-                  <img src="img/pieve2.jpg" class="d-block w-100 mb-2 rounded-top" alt=".....">
-                </a>
-              <div class="container summary">
-                <h5>Chiesa di Santa Maria Annunziata e San Biagio</h5>
-                <p class="luogo m-0"><span>Luogo: </span>Sala Bolognese</p>
-                <p class="tipologia"><span>Tipologia: </span>Edificio</p>
-              </div>
-              <div class="container">
-                <a href="DC/SalaBolognese.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
-            <div class="wrapper shadow border-0 rounded">
-              <img src="img/monteveglio.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
-              <div class="container summary">
-                <h5>Chiesa di Santa Maria Assunta</h5>
-                <p class="luogo m-0"><span>Luogo: </span>Monteveglio</p>
-                <p class="tipologia"><span>Tipologia: </span>Edificio</p>
-              </div>
-              <div class="container">
-                <a href="DC/Monteveglio.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
-            <div class="wrapper shadow border-0 rounded">
-              <img src="img/vittore.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
-              <div class="container summary">
-                <h5>Chiesa di San Vittore</h5>
-                <p class="luogo m-0"><span>Luogo: </span>Bologna</p>
-                <p class="tipologia"><span>Tipologia: </span>Edificio</p>
-              </div>
-              <div class="container">
-                <a href="DC/MonteGiardino.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
-            <div class="wrapper shadow border-0 rounded">
-              <img src="img/roffeno.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
-              <div class="container summary">
-                <h5>Chiesa di San Pietro</h5>
-                <p class="luogo m-0"><span>Luogo: </span>Roffeno</p>
-                <p class="tipologia"><span>Tipologia: </span>Edificio</p>
-              </div>
-              <div class="container">
-                <a href="DC/Roffeno.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card">
-            <div class="wrapper shadow border-0 rounded">
-              <img src="img/stefano.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
-              <div class="container summary">
-                <h5>Santo Stefano</h5>
-                <p class="luogo m-0"><span>Luogo: </span>Bologna</p>
-                <p class="tipologia"><span>Tipologia: </span>Edificio</p>
-              </div>
-              <div class="container">
-                <a href="DC/Bologna.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
-              </div>
-            </div>
-          </div>
-          <h3>Testi</h3>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 tei-card dc-card">
-            <div class="wrapper shadow border-0 rounded">
-              <img src="img/rivani.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
-              <div class="container summary">
-                <h5>L'Antica Pieve di Sala Bolognese e il suo Restauro</h5>
-                <p class="autore m-0"><span>Autore: </span>Rivani, Giuseppe</p>
-                <p class="tipologia"><span>Tipologia: </span>Testo</p>
-              </div>
-              <div class="container">
-                <a href="DC/Rivanidc.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
-                <a href="TEI/rivani.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 tei">TEI</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card tei-card">
-            <div class="wrapper shadow border-0 rounded">
-              <img src="img/sala.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
-              <div class="container summary">
-                <h5>Basilica di Santa Maria Annunziata e San Biagio</h5>
-                <p class="autore m-0"><span>Autore: </span>Barbieri, Guglielmo</p>
-                <p class="tipologia"><span>Tipologia: </span>Testo</p>
-              </div>
-              <div class="container">
-                <a href="DC/Barbieridc.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
-                <a href="TEI/barbieri.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 tei">TEI</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 tei-card dc-card">
-            <div class="wrapper shadow border-0 rounded">
-              <img src="img/padusa.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
-              <div class="container summary">
-                <h5>Oltre Padusa, nel Tempo. Sala, Paese di Terra e di Acque.</h5>
-                <p class="autore m-0"><span>Autori: </span>Farneti Poli, Rita. Zanichelli, Simona</p>
-                <p class="tipologia"><span>Tipologia: </span>Testo</p>
-              </div>
-              <div class="container">
-                <a href="DC/FarnetiPolidc.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
-                <a href="TEI/farnetipoli.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 tei">TEI</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-12 mt-3 p-3 background-gray card border-0 dc-card tei-card">
-            <div class="wrapper shadow border-0 rounded">
-              <img src="img/pellodi.jpg" class="d-block w-100 mb-2 rounded-top" alt="...">
-              <div class="container summary">
-                <h5>La Pieve di Santa Maria Annunziata e San Biagio a Sala Bolognese: il Monumento e i suoi Restauri</h5>
-                <p class="autore m-0"><span>Autore: </span>Pellodi, Elisa</p>
-                <p class="tipologia"><span>Tipologia: </span>Testo</p>
-              </div>
-              <div class="container">
-                <a href="DC/Pellodidc.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 dc">DC</a>
-                <a href="TEI/pellodi.xml" target="_blank" class="btn btn-outline-dark ml-0 mb-2 tei">TEI</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-    <footer>
-      <div class="container-fluid background-gray">
-          <p class="mb-0 pb-1 pt-1 text-center">© Copyright CC BY-SA 4.0</p>
-      </div>
-    </footer>
+      </footer>
 
 
 
-	<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" 
-        integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" 
-        crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-</body>
+  	<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" 
+          integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" 
+          crossorigin="anonymous"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"></script>
+  </body>
+</html>

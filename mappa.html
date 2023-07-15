@@ -1,134 +1,137 @@
-<head>
-  <!-- charset -->
-  <meta charset="utf-8">
-  <!-- viewport -->
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Mappa</title>
-  <!-- bootstrap css -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="icon" href="img/chiesa.png">
-  <!-- css -->
-  <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
-  <!-- bootstrap icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
-  <!-- prettier-ignore -->
-  <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
-        ({key: "AIzaSyApf4-Gsnzi5enLyJgvqfv24FUAUUAMKvo", v: "beta"});</script>
-    <script>
-      let map;
-      async function initMap() {
-        const position_bologna = { lat: 44.49175, lng: 11.34874 };
-        const { Map } = await google.maps.importLibrary("maps");
-        const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
+<!doctype html>
+<html lang="it">
+  <head>
+    <!-- charset -->
+    <meta charset="utf-8">
+    <!-- viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mappa</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" href="img/chiesa.png">
+    <!-- css -->
+    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script type='text/javascript' src='https://www.gstatic.com/charts/loader.js'></script>
+    <!-- prettier-ignore -->
+    <script>(g=>{var h,a,k,p="The Google Maps JavaScript API",c="google",l="importLibrary",q="__ib__",m=document,b=window;b=b[c]||(b[c]={});var d=b.maps||(b.maps={}),r=new Set,e=new URLSearchParams,u=()=>h||(h=new Promise(async(f,n)=>{await (a=m.createElement("script"));e.set("libraries",[...r]+"");for(k in g)e.set(k.replace(/[A-Z]/g,t=>"_"+t[0].toLowerCase()),g[k]);e.set("callback",c+".maps."+q);a.src=`https://maps.${c}apis.com/maps/api/js?`+e;d[q]=f;a.onerror=()=>h=n(Error(p+" could not load."));a.nonce=m.querySelector("script[nonce]")?.nonce||"";m.head.append(a)}));d[l]?console.warn(p+" only loads once. Ignoring:",g):d[l]=(f,...n)=>r.add(f)&&u().then(()=>d[l](f,...n))})
+          ({key: "AIzaSyApf4-Gsnzi5enLyJgvqfv24FUAUUAMKvo", v: "beta"});</script>
+      <script>
+        let map;
+        async function initMap() {
+          const position_bologna = { lat: 44.49175, lng: 11.34874 };
+          const { Map } = await google.maps.importLibrary("maps");
+          const { AdvancedMarkerElement } = await google.maps.importLibrary("marker");
 
-        map = new Map(document.getElementById("map"), {
-          zoom: 10,
-          center: position_bologna,
-          mapId: "DEMO_MAP_ID",
-        });
+          map = new Map(document.getElementById("map"), {
+            zoom: 10,
+            center: position_bologna,
+            mapId: "DEMO_MAP_ID",
+          });
 
-        const marker_bologna = new AdvancedMarkerElement({
-          map: map,
-          position: position_bologna,
-          title: "Bologna",
-        });
-        marker_bologna.addListener("click", () => {
-          window.open("https://elisapellodi.github.io/elisa-pellodi-dh/DC/Bologna.xml", "_blank")
-        });
+          const marker_bologna = new AdvancedMarkerElement({
+            map: map,
+            position: position_bologna,
+            title: "Bologna",
+          });
+          marker_bologna.addListener("click", () => {
+            window.open("https://elisapellodi.github.io/elisa-pellodi-dh/DC/Bologna.xml", "_blank")
+          });
 
-        const position_pieve = { lat: 44.61635, lng: 11.25723 };
-        const marker_pieve = new AdvancedMarkerElement({
-          map: map,
-          position: position_pieve,
-          title: "Pieve",
-        });
-        marker_pieve.addListener("click", () => {
-          window.open("https://elisapellodi.github.io/elisa-pellodi-dh/scheda.html", "_blank")
-        });
+          const position_pieve = { lat: 44.61635, lng: 11.25723 };
+          const marker_pieve = new AdvancedMarkerElement({
+            map: map,
+            position: position_pieve,
+            title: "Pieve",
+          });
+          marker_pieve.addListener("click", () => {
+            window.open("https://elisapellodi.github.io/elisa-pellodi-dh/scheda.html", "_blank")
+          });
 
-        const position_monteveglio = { lat: 44.46927, lng: 11.09204 };
-        const marker_monteveglio = new AdvancedMarkerElement({
-          map: map,
-          position: position_monteveglio,
-          title: "Monteveglio",
-        });
-        marker_monteveglio.addListener("click", () => {
-          window.open("https://elisapellodi.github.io/elisa-pellodi-dh/DC/Monteveglio.xml", "_blank")
-        });
+          const position_monteveglio = { lat: 44.46927, lng: 11.09204 };
+          const marker_monteveglio = new AdvancedMarkerElement({
+            map: map,
+            position: position_monteveglio,
+            title: "Monteveglio",
+          });
+          marker_monteveglio.addListener("click", () => {
+            window.open("https://elisapellodi.github.io/elisa-pellodi-dh/DC/Monteveglio.xml", "_blank")
+          });
 
-        const position_vergato = { lat: 44.29829, lng: 11.05391 };
-        const marker_vergato = new AdvancedMarkerElement({
-          map: map,
-          position: position_vergato,
-          title: "Vergato",
-        });
-        marker_vergato.addListener("click", () => {
-          window.open("https://elisapellodi.github.io/elisa-pellodi-dh/DC/Roffeno.xml", "_blank")
-        });
+          const position_vergato = { lat: 44.29829, lng: 11.05391 };
+          const marker_vergato = new AdvancedMarkerElement({
+            map: map,
+            position: position_vergato,
+            title: "Vergato",
+          });
+          marker_vergato.addListener("click", () => {
+            window.open("https://elisapellodi.github.io/elisa-pellodi-dh/DC/Roffeno.xml", "_blank")
+          });
 
-        const position_monte = { lat: 44.46843, lng: 11.34167 };
-        const marker_monte = new AdvancedMarkerElement({
-          map: map,
-          position: position_monte,
-          title: "MonteGiardino",
-        });
-        marker_monte.addListener("click", () => {
-          window.open("https://elisapellodi.github.io/elisa-pellodi-dh/DC/MonteGiardino.xml", "_blank")
-        });
-      }
-  initMap();
-  </script>
-</head>
-<body>
-    <header>
-       <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <a class="navbar-brand" href="#">Romanico a Bologna</a>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Obiettivo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="catalogo.html">Catalogo</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" >Mappa</a>
-                </li>
-              </ul>
-              <form class="d-flex">
-                <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Cerca">
-                <button class="btn btn-outline-dark" type="submit">Cerca</button>
-              </form>
+          const position_monte = { lat: 44.46843, lng: 11.34167 };
+          const marker_monte = new AdvancedMarkerElement({
+            map: map,
+            position: position_monte,
+            title: "MonteGiardino",
+          });
+          marker_monte.addListener("click", () => {
+            window.open("https://elisapellodi.github.io/elisa-pellodi-dh/DC/MonteGiardino.xml", "_blank")
+          });
+        }
+    initMap();
+    </script>
+  </head>
+  <body>
+      <header>
+         <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand" href="#">Romanico a Bologna</a>
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="index.html">Obiettivo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="catalogo.html">Catalogo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" >Mappa</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                  <input class="form-control me-2" type="search" placeholder="Cerca" aria-label="Cerca">
+                  <button class="btn btn-outline-dark" type="submit">Cerca</button>
+                </form>
+              </div>
             </div>
+          </nav>
+      </header>
+      <main class="container-md">
+        <h2>Mappa dei Luoghi</h2>
+        <p>Nella seguente mappa è possibile navigare alle schede degli item tramite la loro locazione geografica</p>
+        <div id="map" class="shadow-lg"></div>
+      </main>
+      <footer>
+          <div class="container-fluid background-gray">
+              <p class="mb-0 pb-1 pt-1 text-center">© Copyright CC BY-SA 4.0</p>
           </div>
-        </nav>
-    </header>
-    <main class="container-md">
-      <h2>Mappa dei Luoghi</h2>
-      <p>Nella seguente mappa è possibile navigare alle schede degli item tramite la loro locazione geografica</p>
-      <div id="map" class="shadow-lg"></div>
-    </main>
-    <footer>
-        <div class="container-fluid background-gray">
-            <p class="mb-0 pb-1 pt-1 text-center">© Copyright CC BY-SA 4.0</p>
-        </div>
-    </footer>
-    
-    <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" 
-        integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" 
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
-        crossorigin="anonymous"></script>
-</body>
+      </footer>
+      
+      <script src="https://code.jquery.com/jquery-3.7.0.slim.min.js" 
+          integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE=" 
+          crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+          crossorigin="anonymous"></script>
+  </body>
+</html>
