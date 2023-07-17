@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="../stylesheets/styletei.css" type="text/css"?>
-<?oxygen RNGSchema="schemas/teilite.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="farneti_poli_oltre_padusa_nel_tempo">
 	<teiHeader>
 		<fileDesc>

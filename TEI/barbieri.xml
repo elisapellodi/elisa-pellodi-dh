@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="../stylesheets/styletei.css" type="text/css"?>
-<?oxygen RNGSchema="schemas/teilite.rng" type="xml"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="barbieri_basilica_di_santa_maria_annunziata_e_san_biagio">
 	<teiHeader>
 		<fileDesc>
